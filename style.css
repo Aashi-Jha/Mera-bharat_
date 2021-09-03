@@ -1,0 +1,194 @@
+body{
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+
+  }
+  header{
+      width:100%;
+      height:100vh;
+      background-image:url("download.jpeg"); 
+      background-repeat:no-repeat;
+      background-size: cover
+     
+  }
+  nav{
+      width:100%;
+      height:15%;
+      background:rgba(0,0,0,.3);
+      color:white;
+      display:flex;
+      justify-content: space-between;
+    align-items:center;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    display: -webkit-sticky;
+    display:sticky;
+    position: fixed;
+    z-index: 99999;
+    bottom: 0;
+margin-bottom: 45%;
+  }
+
+ html{
+   scroll-behavior: smooth;
+ }
+
+  nav .logo{
+    
+    width:25%;
+    text-align:center;
+  padding: 10px;
+  }
+  nav .menu{
+  
+    margin-left: 50%;
+    width:40%;
+    display:flex;
+    justify-content:space-around;
+  }
+  nav .menu a{
+    
+    width:25%;
+   text-decoration:none;
+    color:white;
+    font-weight:bold;
+    background:rgba(0,0,0,0,.2);
+  }
+  nav .menu a:first-child{
+color:#00b894;
+
+  }
+  main{
+    width:100%;
+    height:15vh;
+  margin-top:15%;
+    color:white;
+  
+    justify-content:space-between;
+    align-items:center;
+    text-transform:uppercase;
+  }
+  section h3{
+    font-size:35px;
+    font-weight:bold;
+    letter-spacing:3px;
+    text-shadow:1px 1px 2px black;
+  }
+  section h1{
+      margin:30px 0 20px 0;
+      font-size: 70px;
+      font-weight: 700;
+      text-shadow: 2px 1px 5px black;
+      text-transform: uppercase;
+  }
+section p{
+    font-size: 25px;
+
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+section .btnone{
+   background:#00b894;
+   color:#000;
+}
+.btnone:hover{
+    background: blue;
+    color:#000;
+}
+
+section .btntwo{
+    background: whitesmoke;
+    color:#000;
+}
+.btntwo:hover{
+    background: blue;
+    color:#000;
+}
+
+.change_content:after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color:rgb(27, 133, 25);
+}
+
+@keyframes changetext{
+    0%{content: " Mumbai";}
+    20%{content: " Agra";}
+    35%{content: " Jaipur";}
+    60%{content: " Uttar Pradesh";}
+    80%{content: " Nanital";}
+    100%{content: " Delhi";}
+}
+ img{
+    height: 300px;
+    border-radius: 20px;
+}
+#gallery{
+    margin-top: 30%;
+    background-image: url("zebra-stripes-black-white-pattern-seamless_10083-198.jpeg");
+}
+#gallery h1{
+    color: white;
+    margin:30px 0 20px 0;
+      font-size: 70px;
+      font-weight: 700;
+      text-shadow: 2px 1px 5px black;  
+}
+p{
+    background-color: blanchedalmond;
+}
+#about{
+  background-image: url("back\ 5.jpeg");
+}
+#about h2{
+  background-color: lightslategrey;
+  color: azure;
+  width: fit-content;
+}
+#about p{
+  background-color: lightskyblue;
+}
+#facts h2{
+  font-family: arial-black;
+  color: cornsilk;
+  background-color: crimson;
+  font-size: 25px;
+  width: 15%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+#facts{
+
+  background-image: url("back\ 6.jpeg");
+}
+#facts h1{
+  color: white;
+  margin:30px 0 20px 0;
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;  
+}
+#facts p{
+  background-color: blanchedalmond;
+}
+#home{
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+  z-index:9;
+  margin-bottom: 10%;
+}
